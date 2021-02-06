@@ -5,7 +5,7 @@ import Example from './components/Example';
 function App() {
   return (
     <div className='App'>
-      <SignIn />{' '}
+      <SignIn />
       {/*Add components here (sign in component, Google Maps component, etc)*/}
       <Example />
     </div>

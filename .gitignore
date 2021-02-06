@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-HackBU_2021/HackBU_2021/hack-bu-2021/node_modules
+HackBU_2021/HackBU_2021/hack-bu-2021
 /node_modules
 /.pnp
 .pnp.js

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Example.css';
 
 const Example = () => {
   return (

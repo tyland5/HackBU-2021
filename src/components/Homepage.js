@@ -5,8 +5,9 @@ const Homepage = () => {
   return (
     <div className='homepage'>
       <h1>Find the perfect gift.</h1>
-      <div>
-        <p>Search Now</p>
+      <div className='search'>
+        <p>Generate new idea {`>>`}</p>{' '}
+        {/* I want to try to find a better font style for this button here */}
       </div>
     </div>
   );

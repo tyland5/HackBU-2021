@@ -1,5 +1,29 @@
 .homepage {
   background-color: rgba(255, 255, 255, 0.171);
-  width: 50%;
-  margin: auto;
+  width: 40%;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0px;
+}
+
+.homepage h1 {
+  font-family: 'Spartan', sans-serif;
+}
+
+.search {
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 30%;
+  margin: 2% auto;
+  background-color: rgba(255, 255, 255, 0.226);
+}
+
+.search p {
+  font-size: 1.3rem;
+}
+
+.search:hover {
+  background-color: rgba(255, 255, 255, 0.315);
+  cursor: pointer;
 }

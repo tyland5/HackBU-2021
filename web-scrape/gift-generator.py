@@ -32,7 +32,7 @@ product_dict =  {
 
 #json boolean start with lower rather than captial
 
-with open('products.json','w') as f:
+with open('web-scrape/products.json','w') as f:
     json.dump(product_dict, f, indent = 1)
 
     

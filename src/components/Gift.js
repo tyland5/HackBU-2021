@@ -1,4 +1,5 @@
 import React from 'react';
+import './Gift.css';
 
 const Gift = ({ gift }) => {
   return (

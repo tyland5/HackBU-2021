@@ -1,12 +1,15 @@
 import './App.css';
-import Homepage from './components/Homepage';
+import SignIn from './components/SignIn';
+import Example from './components/Example';
 
-const App = () => {
+function App() {
   return (
     <div className='App'>
-      <Homepage />
+      <SignIn />
+      {/*Add components here (sign in component, Google Maps component, etc)*/}
+      <Example />
     </div>
   );
-};
+}
 
 export default App;

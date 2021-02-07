@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Homepage.css';
 import Gift from './Gift';
-import data from '../web-scrape/products.json';
+import data from '../../web-scrape/products.json';
 
 const Homepage = () => {
   const [gift, setGifts] = useState({});
